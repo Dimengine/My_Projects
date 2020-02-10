@@ -32,13 +32,13 @@ int main()
         }
     }
 
-    std::cout << "In this text present:\n"
+    std::cout << "This text contains:\n"
             << "Lines: " << lineCount << std::endl
             << "Words: " << wordCount << std::endl
             << "Characters: " << characterCount 
             << " (Alphabetic: " << alphabeticCount
             << ", Digits: " << digitCount
             << ", Punctuation: " << punctCount
-            << ", Space: " << spaceCount << ")" << std::endl;
+            << ", Spaces: " << spaceCount << ")" << std::endl;
     return 0;
 }
