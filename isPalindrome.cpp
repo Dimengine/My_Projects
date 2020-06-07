@@ -10,7 +10,7 @@ bool isPalindrome(const std::string &text)
     while(readword >> word)
     {
         for(auto el : word)
-            if(!isalnum(el))
+            if(isalnum(el))
                 temp += tolower(el);
     }
     for(auto bit = temp.begin(), eit = temp.end() - 1; bit != temp.begin() + (temp.end() - temp.begin()) / 2; ++bit, --eit)
